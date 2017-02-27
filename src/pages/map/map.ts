@@ -26,7 +26,6 @@ export class MapPage implements OnInit {
     this.createMap(longitude, latitude, TOKEN);
   }
 
-
   // Generate Map with mapboxgl
 
   createMap(longitude: number, latitude: number, ACCESSTOKEN: string) {
@@ -44,7 +43,6 @@ export class MapPage implements OnInit {
       this.addMarker(myMap, agency.latitude, agency.longitude, 100, 100, `url(${agency.image})`, agency.summary)
     })
   }
-
 
   // Generate Markers with agency's JSON object.
 

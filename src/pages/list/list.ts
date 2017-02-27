@@ -24,6 +24,9 @@ export class ListPage implements OnInit {
   }
 
   ngOnInit() {
+
+    // Generate a loading 
+
     let loading = this._loadingCtrl.create({
       spinner: 'dots',
       content: `
@@ -35,6 +38,8 @@ export class ListPage implements OnInit {
     });
 
     loading.present();
+
+    // Generate list of agencies order by her location
 
     this._dataService.orderAgenciesByLocation(this._dataService.getAgencies(), this._dataService.getLocation())
       .then(agencies => {
