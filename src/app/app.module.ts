@@ -4,6 +4,7 @@ import { MyApp } from './app.component';
 import { MapPage } from '../pages/map/map';
 import { ListPage } from '../pages/list/list';
 import { TabsPage } from '../pages/tabs/tabs';
+import { DataService } from '../providers/agency-service';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,6 @@ import { TabsPage } from '../pages/tabs/tabs';
     ListPage,
     TabsPage
   ],
-  providers: [{ provide: ErrorHandler, useClass: IonicErrorHandler }]
+  providers: [DataService, { provide: ErrorHandler, useClass: IonicErrorHandler }]
 })
 export class AppModule { }

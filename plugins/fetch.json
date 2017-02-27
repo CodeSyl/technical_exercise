@@ -55,9 +55,7 @@
         "is_top_level": true,
         "variables": {
             "API_KEY_FOR_ANDROID": "AIzaSyAp5JLFg-rroIGPe05ZadGcZaDA2efLl-k",
-            "API_KEY_FOR_IOS": "AIzaSyAQQXE_3Gm7rFzAzntVy6e8sKwzxmmXMLU",
-            "NSLOCATIONWHENINUSEUSAGEDESCRIPTION": "Show your location on the map",
-            "NSLOCATIONALWAYSUSAGEDESCRIPTION": "Trace your location on the map"
+            "API_KEY_FOR_IOS": "AIzaSyAQQXE_3Gm7rFzAzntVy6e8sKwzxmmXMLU"
         }
     },
     "com.googlemaps.ios": {

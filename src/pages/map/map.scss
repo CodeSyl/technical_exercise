@@ -1,3 +1,22 @@
-page-about {
+.leafletMapComponent { 
+    position:absolute; 
+    top:0; 
+    bottom:0; 
+    width:100%; 
+}
+.marker {
+    position: absolute; 
+    background-size: cover;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 0;
+}
+.location{
+    padding: 50%;
+    transform: scale(4);
+}
 
+.mapboxgl-popup {
+    max-width: 200px;
 }
